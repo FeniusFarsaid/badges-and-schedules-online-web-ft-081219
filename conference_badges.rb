@@ -12,6 +12,8 @@ end
 names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 batch_badge_creator(names)
+
+
 # # Write your code here.
 # def batch_badge_creator(speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
 #   badges = []
