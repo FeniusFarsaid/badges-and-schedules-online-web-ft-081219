@@ -6,11 +6,10 @@ end
 
 
 def batch_badge_creator(names)
-  names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   names.collect {|name| badge_maker(name)}
 end
 
-#names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 batch_badge_creator(names)
 
